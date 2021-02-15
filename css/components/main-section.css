@@ -13,6 +13,14 @@
     background-color: #000;
 }
 
+.main-section.-bgPurple{
+    background-color: #7C5E99;
+}
+
 .main-section.-bdPink{
     border-color: #F25A70;
+}
+
+.main-section.-bdBlack{
+    border-color: #000;
 }
