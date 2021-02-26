@@ -2,19 +2,31 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .main-carousel::after{
+    background-color: #000;
+    content: "";
     display: block;
     position: absolute;
-    left: 0;
-    top: 35px;
-    content: "";
+    width: calc(100% - 100px);
     height: 5px;
-    width: 100%;
-    background-color: #000;
+    left: 50px;
+    top: 35px;
+}
+
+.main-carousel::before{
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    left: 0px;
+    top: 35px; 
+    border: 2.5px dashed #000;
+    height: 98vw;
+    transform-origin: top right;
+    transform: rotate(-90deg);
 }
 
 .main-carousel .button-arrow{
