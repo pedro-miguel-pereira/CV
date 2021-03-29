@@ -1,31 +1,36 @@
-.main-section{
-    background-color: #F25A70;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    border-bottom: 10px solid #7C5E99;
+.main-section {
+	background-color: #f25a70;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	border-bottom: 10px solid #7c5e99;
 }
 
-.main-section .main-title{
-    margin-bottom: 60px;
+.main-section .main-title {
+	margin-bottom: 60px;
 }
 
-.main-section .main-text{
-    margin-left: 80px;
-    margin-right: 80px;
+.main-section .main-text {
+	margin-left: 80px;
+	margin-right: 80px;
 }
 
-.main-section.-bgBlack{
-    background-color: #000;
+.main-section.-bgBlack {
+	background-color: #000;
 }
 
-.main-section.-bgPurple{
-    background-color: #7C5E99;
+.main-section.-bgPurple {
+	background-color: #7c5e99;
 }
 
-.main-section.-bdPink{
-    border-color: #F25A70;
+.main-section.-bgGrey {
+	background-color: #3a4042;
+	border-bottom: none;
 }
 
-.main-section.-bdBlack{
-    border-color: #000;
+.main-section.-bdPink {
+	border-color: #f25a70;
+}
+
+.main-section.-bdBlack {
+	border-color: #000;
 }
